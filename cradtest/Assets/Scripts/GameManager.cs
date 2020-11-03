@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     [Range(0.1f, 50f)]
     [Header("旋轉速度")]
     public float turnspeed = 1.5f;
+    [Header("縮放倍率"), Range(0.1f, 5f)]
+    public float scalesize = 2.5f;
 
 
 
@@ -24,6 +26,6 @@ public class GameManager : MonoBehaviour
         print(Joystick.Vertical);
         behold.Rotate(0, Joystick.Horizontal, 0);
         chest.Rotate(0, Joystick.Horizontal * turnspeed, 0);
-        behold.transform.localScale = new Vector3(1, 1, 1) * Joystick.Vertical;
+        behold.transform.localScale = new Vector3(1, 1, 1) * Joystick.Vertical * scalesize;
     }
 }

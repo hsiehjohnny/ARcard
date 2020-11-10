@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u653B\u64CAtrigger"
+    m_ConditionEvent: "\u653B\u64CA"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2670538932841345836}
@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u53D7\u50B7trigger"
+    m_ConditionEvent: "\u53D7\u50B7"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 807006611853165979}
@@ -85,7 +85,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u79FB\u52D5trigger"
+    m_ConditionEvent: "\u79FB\u52D5"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 363541555251478577}
@@ -110,25 +110,25 @@ AnimatorController:
   m_Name: first
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: "\u653B\u64CAtrigger"
+  - m_Name: "\u653B\u64CA"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
     m_Controller: {fileID: 0}
-  - m_Name: "\u6B7B\u4EA1trigger"
+  - m_Name: "\u6B7B\u4EA1"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\u79FB\u52D5trigger"
+  - m_Name: "\u79FB\u52D5"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\u53D7\u50B7trigger"
+  - m_Name: "\u53D7\u50B7"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -210,7 +210,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u6B7B\u4EA1trigger"
+    m_ConditionEvent: "\u6B7B\u4EA1"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7453484041784737688}
